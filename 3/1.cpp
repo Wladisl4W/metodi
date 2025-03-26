@@ -202,7 +202,7 @@ int swapRows2(double** matrix, int n, int i) {
 
 
 
-// Жмых
+// Повернуть матрицу горизонтально потом вертикально
 void zhmihnutMatrix(double** matrix, int n, int m) {
     m--;
     for (int i = 0; i < n / 2; i++) {
